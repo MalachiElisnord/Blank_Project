@@ -62,7 +62,7 @@ The Mimikatz Rule Detection Project was designed to simulate a real-world cyber 
 </div>
 
 *Ref 3: Detection Rule in Action*
-- Description: This screenshot shows the Mimikatz detection rule working within LimaCharlie, capturing the tool's activity in real-time.
+- Description: This screenshot showcases the Mimikatz detection rule actively monitoring and capturing the tool's execution within LimaCharlie. The rule has successfully identified over **50** instances of Mimikatz activity during testing, demonstrating its robustness and reliability in detecting this specific threat in real-time.
 
 <div style="text-align: center;">
   <img src="https://github.com/user-attachments/assets/acbdcd15-7233-45a8-a955-47110cd33707" alt="No Isolation Alert" style="border: 2px solid #000; border-radius: 5px;">
