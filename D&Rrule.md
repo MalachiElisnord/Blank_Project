@@ -29,7 +29,7 @@ rules:
     author: Malachi
     description: Detects Mimikatz (SOAR-EDR tool)
     falsepositives:
-      - ToTheMoon
+      - Medium
     level: high
     tags:
       - attack.credential_access
