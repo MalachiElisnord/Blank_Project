@@ -8,7 +8,7 @@
 
 ## Objective
 
-The Mimikatz Detection Project was designed to simulate a real-world cyber attack scenario, focusing on detecting and responding to the use of the Mimikatz tool on a Windows machine. The primary goal was to establish a robust detection mechanism using LimaCharlie EDR and automate incident response actions with Tines. This project provided hands-on experience in detecting sophisticated attacks and automating responses in a controlled environment.
+The Mimikatz Rule Detection Project was designed to simulate a real-world cyber attack scenario, focusing on detecting and responding to the use of the Mimikatz tool on a Windows machine. The primary goal was to establish a robust detection mechanism using LimaCharlie EDR and automate incident response actions with Tines. This project provided hands-on experience in detecting sophisticated attacks and automating responses in a controlled environment.
 
 ### Skills Learned
 
