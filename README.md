@@ -4,6 +4,8 @@
   <img src="https://github.com/user-attachments/assets/c7502825-ec85-423c-bc0c-fec9bcaea9a0" alt="SIEM Project Overview" style="border: 2px solid #000; border-radius: 5px;">
 </div>
 
+![mimikat diagram](https://github.com/user-attachments/assets/c7b40fae-567f-43b1-8706-1e0031590b5a)
+
 
 ## Objective
 
