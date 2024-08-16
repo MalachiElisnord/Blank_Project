@@ -28,27 +28,21 @@ The Mimikatz Rule Detection Project was designed to simulate a real-world cyber 
 
 ## Steps
 
-### 1. Initial Setup
+1. **EDR Installation**
+   - A Windows machine was set up with LimaCharlie EDR installed to monitor and detect suspicious activities, focusing on detecting the execution of the Mimikatz tool.
+  
+2. **Detection Rule Creation**
+   - A custom detection rule was created in LimaCharlie to identify the execution of Mimikatz. This rule was designed to capture and log the tool's activity for further analysis.
+  
+3. **Alert Generation and Playbook Execution**
+   - Upon detecting Mimikatz, Tines was triggered to execute a predefined playbook, which performed the following actions:
+     - Sent an alert to Slack with the machine and detection details.
+     - Dispatched an email containing the detection report.
+     - Prompted the security analyst to decide whether to isolate the compromised machine.
 
-*Ref 1: EDR Installation*  
-A Windows machine was set up with LimaCharlie EDR installed to monitor and detect suspicious activities. The focus was on detecting the execution of the Mimikatz tool.
+## Screenshots
 
-### 2. Detection Rule Creation
 
-*Ref 2: Detection Rule*  
-A custom detection rule was created in LimaCharlie to identify the execution of Mimikatz. The screenshot below shows the rule and how it captures the tool's activity.
-
-![Detection Rule](https://imgur.com/link-to-your-screenshot)
-
-### 3. Alert Generation and Playbook Execution
-
-*Ref 3: Tines Playbook Triggered*  
-Once Mimikatz was detected, Tines was triggered to execute a predefined playbook. The playbook performed the following actions:
-- Sent an alert to Slack with the machine and detection details.
-- Dispatched an email containing the detection report.
-- Prompted the security analyst to decide whether to isolate the compromised machine.
-
-![Slack Alert](https://imgur.com/link-to-your-screenshot)
 
 ### 4. Analyst Decision: Isolation Process
 
